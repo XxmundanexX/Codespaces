@@ -25,7 +25,6 @@ s: sequencia de caracteres alfa numéricos (texto) */
 \123: Caractere relacionado ao código *123* em octal (ASCII)
 \X12: Caractere relacionado ao código *12* em hexadecimal (ASCII) */
 
-#include <stdlib.h>
 #include <stdio.h>
 
 int main()
@@ -37,5 +36,4 @@ int main()
   printf("Valor real, com apenas duas casas: %2f.\n", 3.14159265);
   printf("Dados de texto: %c.\n", 'a');
   printf("Dados de texto: %s.\n", "testando");
-  printf("danca gatinnho danca\\");
 }
