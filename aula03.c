@@ -28,6 +28,7 @@ s: sequencia de caracteres alfa numéricos (texto) */
 #include <stdio.h>
 
 int main()
+
 {
   printf("Oi, tudo bem? Tenho 6 anos e programo.\n");
   
